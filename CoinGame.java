@@ -29,7 +29,12 @@ public class CoinGame {
         }
 
     scanner.close();
-    System.out.println("You've won! The right amount was " + totalValue);
+    if(totalValue == winValue){
+        System.out.println("You've won! The right amount was " + totalValue);
+    }
+    else{
+        System.out.println("You lost :(");
+        }
 
         }
 
