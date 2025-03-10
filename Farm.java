@@ -7,6 +7,7 @@ public class Farm {
         pig1.makeSound();
         Duck duck1 = new Duck();
         duck1.makeSound();
+        duck1.eat();
 
     }
 
